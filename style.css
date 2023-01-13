@@ -2,11 +2,20 @@
     background-color: rgba(189, 157, 206, 0.481);
 }
 
+.box{
+    width: 200px;
+    height: 200px
+}
+.box-color{
+    background-color: aqua;
+}
 .navstyle{
    background-color: tan;
 }
 
 .section{
+    width: 400px;
+    height: 300px;
     background-color: rgba(233, 213, 187, 0.672);
 }
 
