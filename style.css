@@ -7,33 +7,37 @@ body {
     background-color: rgba(189, 157, 206, 0.481);
     line-height: 100px;
 }
+ls
 
-.box{
-    width: 200px;
-    height: 200px
-}
-.box-color{
-    background-color: aqua;
-}
 .navstyle{
    background-color: tan;
 }
 
 .section{
+    display: block;
     width: 400px;
     height: 300px;
     background-color: rgba(233, 213, 187, 0.672);
     line-height: 50px;
 }
 
+li{
+    display: inline;
+}
+
+
+
+/* ID tags */
+
 #navlist {
     font-size: 15px;
-    line-height: 50px;
+    line-height: 50px; 
     background-color: brown;
 }
 
 #about{
  background-color: rgb(177, 133, 31);
+
 }
 
 #portfolio{
