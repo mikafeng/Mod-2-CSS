@@ -1,5 +1,11 @@
+body {
+    background-color: rgb(87, 74, 125);
+}
+
+
 .title {
     background-color: rgba(189, 157, 206, 0.481);
+    line-height: 100px;
 }
 
 .box{
@@ -17,9 +23,12 @@
     width: 400px;
     height: 300px;
     background-color: rgba(233, 213, 187, 0.672);
+    line-height: 50px;
 }
 
 #navlist {
+    font-size: 15px;
+    line-height: 50px;
     background-color: brown;
 }
 
