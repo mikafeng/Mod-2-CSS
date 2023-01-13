@@ -1,0 +1,27 @@
+.title {
+    background-color: rgba(189, 157, 206, 0.481);
+}
+
+.navstyle{
+   background-color: tan;
+}
+
+.section{
+    background-color: rgba(233, 213, 187, 0.672);
+}
+
+#navlist {
+    background-color: brown;
+}
+
+#about{
+ background-color: rgb(177, 133, 31);
+}
+
+#portfolio{
+    background-color: rgb(141, 113, 49);
+}
+
+#contact{
+    background-color: rgb(190, 161, 91);
+}
