@@ -6,8 +6,7 @@ body {
 }
 
 
-
-
+/* CLASSES */
 .title {
     font-family: Arial;
     margin: 0px;
@@ -17,28 +16,25 @@ body {
     /* line-height: 100px; */
 }
 
-
+/* NAVIGATION STYLING */
 .navstyle{
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: space-around;
+   padding: 15px;
    background-color: rgba(40, 42, 42, 0.571);
 }
 
-.navstyle li{
-
-    text-align: center;
-
+.navstyle a{
     color: white;
-    padding: 14px 20px;
-
 }
 
-.navbar a:hover {
+.navstyle a:hover {
     background-color: #ddd;
     color: black;
   }
 
+/* MAIN SECTIONS */
 .flex-main{
     display: flex;
     flex-direction: column;
@@ -46,11 +42,9 @@ body {
 
 
 .section{
-  
     border-style: solid;
     margin: 20px;
     display: block;
-    width: 400px;
     height: 300px;
     background-color: rgba(233, 213, 187, 0.672);
     line-height: 50px;
@@ -67,19 +61,20 @@ body {
     line-height: 1;
 }
 
-.flex-portfolio{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
 
+/* PORTFOLIO SECTION */
+.flex-portfolio p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
-
-img {background-color: #aaa;
-width: 100%;
-padding: 20px;
+img {
+    display: flex;
+    flex-direction: row;
+    background-color: #aaa;
+    padding: 20px;
 }
 
 
