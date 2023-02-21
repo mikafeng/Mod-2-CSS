@@ -8,6 +8,20 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+div {
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+/* header */
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+/* top navigation bar and link styling*/
 .topnav {
     overflow: hidden;
     background-color: black;
@@ -22,7 +36,12 @@ body{
     text-decoration: none;
 }
 
-.flex-container{
+.topnav a:hover {
+    color:lightblue;
+}
+
+/* portfolio styling */
+.container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,11 +51,30 @@ body{
 
 .feature {
         width: 100%;
-        max-width: 600px;
+        /* max-width: 600px; */
         height: auto;
 }
+
+#project1{
+            order: -1;
+            flex: 1 0 100%;
+            align-self: center;
+}
+
+.item{
+    justify-content: space-around;
+    
+}
+
 .responsive {
     width: 100%;
     max-width: 300px;
     height: auto;
+}
+
+/* footer styling */
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
 }
