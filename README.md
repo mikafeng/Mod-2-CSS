@@ -16,12 +16,15 @@
  ## Description
 
 A portfolio for my coding projects.
+Link to deployed webpage: https://mikafeng.github.io/Portfolio/
 
 ---
 
 ## Usage
 
 For employers to see my working portfolio, about me, and contact infor
+
+<img width="583" alt="preview_mikafeng" src="https://user-images.githubusercontent.com/110942241/220458441-cfe758eb-379e-40af-9fca-b014edac7d08.png">
 
 ---
 
